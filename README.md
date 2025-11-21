@@ -39,37 +39,8 @@ El diagrama representa el **diseño concurrente de una regresion lineal distribu
 ## Punto 2. Resumen del diseño basado en Aspectos
 El diagrama se puede ver dandole clic al siguente vienculo: [Diagrama: ](./puntop_2.png)
 
+- El diseño propuesto utiliza el paradigma de Programacion Orientada a Aspectos (AOP) para estructurar la solucion de regresion lineal mediante gradiente descendente. La arquitectura separa claramente la logica principal del modelo de los comportamientos transversales, logrando un sistema modular y facil de mantener.
 
-El diseño presentado en el diagrama DOT utiliza **Programación Orientada a Aspectos (AOP)** para separar responsabilidades transversales y mantener un código más limpio, modular y fácil de mantener. La arquitectura se organiza en clases principales del sistema y aspectos que encapsulan comportamientos que afectan múltiples componentes.
+- En la parte funcional, el modulo **Datos** gestiona la carga, normalizacion y provision de los vectores XXX y yyy. El **ModeloRegresion** contiene los parametros del modelo (www y bbb) y provee los metodos para predecir y actualizar dichos parametros. El componente **Entrenador** implementa el algoritmo de gradiente descendente, calculando el error, los gradientes y la actualizacion de los parametros en cada epoch.
 
-## Clases principales
-El sistema define varias clases encargadas de la logica central, tales como:
-- **Transacciones**
-- **Clientes**
-- **Cuentas**
-- **Servicios de negocio**
-- **Controladores**
-
-Cada una se enfoca unicamente en su responsabilidad principal, evitando cudigo duplicado o logica ajena a su proposito.
-
-## Aspectos transversales
-El diagrama introduce aspectos como:
-- **LoggingAspect**  
-  Captura eventos importantes y registra información útil para auditoría y depuración.
-
-- **SecurityAspect**  
-  Verifica permisos, autentica operaciones y protege el acceso a los recursos del sistema.
-
-- **TransactionAspect**  
-  Controla el inicio, confirmacion o reversión de transacciones para mantener consistencia en los datos.
-
-Estos aspectos se aplican sobre múltiples clases sin modificar directamente su codigo.
-
-## Beneficio principal del diseño
-Este enfoque permite:
-- Reducir repetición de codigo.
-- Mantener las clases más limpias y enfocadas.
-- Centralizar la logica transversal.
-- Mejorar la mantenibilidad y la escalabilidad.
-
-En conjunto, el diagrama refleja una arquitectura robusta donde las funcionalidades transversales se desacoplan correctamente mediante el uso de aspectos.
+- Los aspectos complementan este proceso sin modificar el codigo base. El **Aspecto Logging** registra eventos como el inicio y fin de cada epoch y las actualizaciones realizadas sobre el modelo. El **Aspecto Monitoreo** mide metricas importantes, como el tiempo de ejecucion por epoch y la evolucion del error (MSE), permitiendo analizar la convergencia. Por ultimo, el **Aspecto Validacion** verifica la coherencia y validez de los datos antes de iniciar el entrenamiento, evitando errores durante la ejecucion.
