@@ -44,3 +44,9 @@ El diagrama se puede ver dandole clic al siguente vienculo: [Diagrama: ](./punto
 - En la parte funcional, el modulo **Datos** gestiona la carga, normalizacion y provision de los vectores XXX y yyy. El **ModeloRegresion** contiene los parametros del modelo (www y bbb) y provee los metodos para predecir y actualizar dichos parametros. El componente **Entrenador** implementa el algoritmo de gradiente descendente, calculando el error, los gradientes y la actualizacion de los parametros en cada epoch.
 
 - Los aspectos complementan este proceso sin modificar el codigo base. El **Aspecto Logging** registra eventos como el inicio y fin de cada epoch y las actualizaciones realizadas sobre el modelo. El **Aspecto Monitoreo** mide metricas importantes, como el tiempo de ejecucion por epoch y la evolucion del error (MSE), permitiendo analizar la convergencia. Por ultimo, el **Aspecto Validacion** verifica la coherencia y validez de los datos antes de iniciar el entrenamiento, evitando errores durante la ejecucion.
+
+
+---
+
+## Punto 3
+- Ver reasme y implentacion de los codigos de phyton y rust de regresion lineal en el siguiente vinculo: 
