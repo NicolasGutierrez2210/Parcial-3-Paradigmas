@@ -1,6 +1,6 @@
 # Punto 1 – Resumen del Diagrama de Regresion Lineal Concurrente
 
- [Este diagrama lo encuentras aca: ](./Punto_1.png)
+ [Este diagrama lo encuentras aca: ](./Puntop_1.png)
 
 
 El diagrama representa el **diseño concurrente de una regresion lineal distribuida** usando el paradigma de concurrencia y comunicacion por canales (inspirado en π-calculo). Los elementos principales son:
