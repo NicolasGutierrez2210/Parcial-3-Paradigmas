@@ -37,7 +37,9 @@ El diagrama representa el **diseño concurrente de una regresion lineal distribu
 ---
 
 ## Punto 2. Resumen del diseño basado en Aspectos
-Este Diagrama lo encuentras aca: 
+El diagrama se puede ver dandole clic al siguente vienculo: [Diagrama: ](./puntop_2.png)
+
+
 El diseño presentado en el diagrama DOT utiliza **Programación Orientada a Aspectos (AOP)** para separar responsabilidades transversales y mantener un código más limpio, modular y fácil de mantener. La arquitectura se organiza en clases principales del sistema y aspectos que encapsulan comportamientos que afectan múltiples componentes.
 
 ## Clases principales
