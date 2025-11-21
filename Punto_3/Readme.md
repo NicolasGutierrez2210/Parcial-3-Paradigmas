@@ -1,4 +1,4 @@
-# Comparación de rendimiento: Regresióo Lineal en Rust vs Python
+# Comparación de rendimiento: Regresion Lineal en Rust vs Python
 
 Este experimento mide el tiempo de ejecución de una implementación básica de **regresión lineal** en dos lenguajes: **Rust** y **Python**.  
 Ambos códigos realizan exactamente la misma tarea: calcular los coeficientes `m` y `b` de una recta que mejor se ajusta a un conjunto de datos usando la **formula cerrada**.
