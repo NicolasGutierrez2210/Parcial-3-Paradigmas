@@ -36,7 +36,7 @@ El diagrama representa el **diseño concurrente de una regresion lineal distribu
 - Este diseño permite paralelizar el cálculo de gradientes en múltiples trabajadores y actualizar los parámetros de manera coordinada, reflejando la **lógica de regresión lineal** de manera concurrente, clara y formal. Cada componente tiene un rol directo en el flujo de información y en el cálculo de la función de pérdida.
 ---
 
-## Punto 2. Resumen del diseño basado en Aspectos
+# Punto 2. Resumen del diseño basado en Aspectos
 El diagrama se puede ver dandole clic al siguente vienculo: [Diagrama: ](./puntop_2.png)
 
 - El diseño propuesto utiliza el paradigma de Programacion Orientada a Aspectos (AOP) para estructurar la solucion de regresion lineal mediante gradiente descendente. La arquitectura separa claramente la logica principal del modelo de los comportamientos transversales, logrando un sistema modular y facil de mantener.
@@ -48,5 +48,5 @@ El diagrama se puede ver dandole clic al siguente vienculo: [Diagrama: ](./punto
 
 ---
 
-## Punto 3
-- Ver reasme y implentacion de los codigos de phyton y rust de regresion lineal en el siguiente vinculo: 
+# Punto 3: Comparacion phyton vs Rust 
+- Ver readme y implementacion de los codigos de phyton y rust de regresion lineal en el siguiente vinculo: 
