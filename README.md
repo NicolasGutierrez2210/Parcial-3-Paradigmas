@@ -1,6 +1,6 @@
 # Punto 1 – Resumen del Diagrama de Regresion Lineal Concurrente
 
- El diagrama se puede ver dandole clic al siguente vienculo: [Diagrama: ](./Puntop_1.png)
+ El diagrama se puede ver dandole click al siguente vinculo: [Diagrama ](./Puntop_1.png)
 
 
 El diagrama representa el **diseño concurrente de una regresion lineal distribuida** usando el paradigma de concurrencia y comunicacion por canales (inspirado en π-calculo). Los elementos principales son:
@@ -37,7 +37,7 @@ El diagrama representa el **diseño concurrente de una regresion lineal distribu
 ---
 
 # Punto 2. Resumen del diseño basado en Aspectos
-El diagrama se puede ver dandole clic al siguente vienculo: [Diagrama: ](./puntop_2.png)
+El diagrama se puede ver dandole click al siguente vienculo: [Diagrama: ](./puntop_2.png)
 
 - El diseño propuesto utiliza el paradigma de Programacion Orientada a Aspectos (AOP) para estructurar la solucion de regresion lineal mediante gradiente descendente. La arquitectura separa claramente la logica principal del modelo de los comportamientos transversales, logrando un sistema modular y facil de mantener.
 
