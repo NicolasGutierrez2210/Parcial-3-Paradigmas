@@ -33,7 +33,7 @@ El diagrama representa el **diseño concurrente de una regresion lineal distribu
 - `log`: envío de métricas y resultados hacia el Logger.
 
 ## Conclusion:  
-Este diseño permite paralelizar el cálculo de gradientes en múltiples trabajadores y actualizar los parámetros de manera coordinada, reflejando la **lógica de regresión lineal** de manera concurrente, clara y formal. Cada componente tiene un rol directo en el flujo de información y en el cálculo de la función de pérdida.
+- Este diseño permite paralelizar el cálculo de gradientes en múltiples trabajadores y actualizar los parámetros de manera coordinada, reflejando la **lógica de regresión lineal** de manera concurrente, clara y formal. Cada componente tiene un rol directo en el flujo de información y en el cálculo de la función de pérdida.
 ---
 
 ## Punto 2. Resumen del diseño basado en Aspectos
