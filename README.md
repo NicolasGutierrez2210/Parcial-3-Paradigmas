@@ -49,4 +49,4 @@ El diagrama se puede ver dandole clic al siguente vienculo: [Diagrama: ](./punto
 ---
 
 # Punto 3: Comparacion phyton vs Rust 
-- Ver readme y implementacion de los codigos de phyton y rust de regresion lineal en el siguiente vinculo: 
+- Ver readme y implementacion de los codigos de phyton y rust de regresion lineal en el siguiente vinculo: [Abrir Readme](./Punto_3/Readme.md)
