@@ -27,7 +27,8 @@ Ambos códigos realizan exactamente la misma tarea: calcular los coeficientes `m
 
 ## Codigos utilizados
 
-
+- [punto3_rust.rs](./punto3_rust.rs)
+- [regre_phyton.py](./regre_phyton.py)
 
 
 
